@@ -1,7 +1,7 @@
 # git rollback on tag procedure
 
 ## procedure to rollback main/master to a previous tag
-due to limitations on the `protected` branches if a user is not abled to perform force push, the user will not be able to perform a rollback. You need to be allowed to force push on main/master to rollback to a previous tag!!!
+:warning: due to limitations on the `protected` branches if a user is not abled to perform force push, the user will not be able to perform a rollback. You need to be allowed to force push on main/master to rollback to a previous tag!!!
 
 `git checkout main` checkout main/master branch           
 `git reset --hard v5.0` reset the HEAD of the branch to tag v5.0          
