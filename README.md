@@ -1,4 +1,4 @@
-# git rollback on tag procedure
+# git rollback to tag procedure
 
 ## procedure to rollback main/master to a previous tag
 :warning: due to limitations on the `protected` branches if a user is not abled to perform force push, the user will not be able to perform a rollback. You need to be allowed to force push on main/master to rollback to a previous tag!!!
